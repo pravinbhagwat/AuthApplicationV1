@@ -2,6 +2,7 @@ package com.example.authapplicationv1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -76,7 +77,9 @@ public class activity_signup extends AppCompatActivity  {
             }
         });
 
-        MaterialDatePicker datePicker = MaterialDatePicker.Builder.datePicker().setTitleText("Select Date").setSelection(MaterialDatePicker.todayInUtcMilliseconds()).build();
+        MaterialDatePicker datePicker = MaterialDatePicker.Builder.datePicker()
+                .setTitleText("Select Date").setSelection(MaterialDatePicker.todayInUtcMilliseconds())
+                .build();
 
 
         dob.setOnClickListener(new View.OnClickListener() {
@@ -99,6 +102,10 @@ public class activity_signup extends AppCompatActivity  {
 //                if (confirmInput()) {
 //                    submitUserData();
 //                }
+
+                // Intent for swiching to Imageview Activity
+                Intent intent = new Intent(getApplicationContext(),ImageviewActivity.class);
+                startActivity(intent);
             }
         });
         signin.setOnClickListener(new View.OnClickListener() {

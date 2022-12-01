@@ -47,6 +47,7 @@
                 android:textColorHint="#FFFFFF"
                 app:boxStrokeColor="@color/white"
                 app:hintTextColor="@color/white"
+                app:errorEnabled="true"
                 app:layout_constraintEnd_toEndOf="@+id/textview_logo"
                 app:layout_constraintStart_toStartOf="@+id/textview_logo"
                 app:layout_constraintTop_toBottomOf="@id/textview_logo">
@@ -76,6 +77,7 @@
                 android:textColorHint="#FFFFFF"
                 app:boxStrokeColor="@color/white"
                 app:hintTextColor="@color/white"
+                app:errorEnabled="true"
                 app:layout_constraintEnd_toEndOf="@+id/textInput_username"
                 app:layout_constraintStart_toStartOf="@+id/textInput_username"
                 app:layout_constraintTop_toBottomOf="@id/textInput_username"

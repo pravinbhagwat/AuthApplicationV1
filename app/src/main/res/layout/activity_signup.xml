@@ -47,6 +47,7 @@
                 android:textColorHint="#FFFFFF"
                 app:boxStrokeColor="@color/white"
                 app:hintTextColor="@color/white"
+                app:errorEnabled="true"
                 app:layout_constraintEnd_toEndOf="@+id/textview_logo"
                 app:layout_constraintStart_toStartOf="@+id/textview_logo"
                 app:layout_constraintTop_toBottomOf="@id/textview_logo">
@@ -77,6 +78,7 @@
                 android:textColorHint="#FFFFFF"
                 app:boxStrokeColor="@color/white"
                 app:hintTextColor="@color/white"
+                app:errorEnabled="true"
                 app:layout_constraintEnd_toEndOf="@+id/textInput_firstname"
                 app:layout_constraintStart_toStartOf="@+id/textInput_firstname"
                 app:layout_constraintTop_toBottomOf="@+id/textInput_firstname">
@@ -107,6 +109,7 @@
                 android:textColorHint="#FFFFFF"
                 app:boxStrokeColor="@color/white"
                 app:hintTextColor="@color/white"
+                app:errorEnabled="true"
                 app:layout_constraintEnd_toEndOf="@+id/textInput_lastname"
                 app:layout_constraintStart_toStartOf="@+id/textInput_lastname"
                 app:layout_constraintTop_toBottomOf="@id/textInput_lastname">
@@ -137,6 +140,7 @@
                 android:textColorHint="#FFFFFF"
                 app:boxStrokeColor="@color/white"
                 app:hintTextColor="@color/white"
+                app:errorEnabled="true"
                 app:layout_constraintEnd_toEndOf="@+id/textInput_emailid"
                 app:layout_constraintStart_toStartOf="@+id/textInput_emailid"
                 app:layout_constraintTop_toBottomOf="@id/textInput_emailid">
@@ -170,6 +174,7 @@
                 android:textColorHint="#FFFFFF"
                 app:boxStrokeColor="@color/white"
                 app:hintTextColor="@color/white"
+                app:errorEnabled="true"
                 app:layout_constraintEnd_toEndOf="@+id/textInput_mobileno"
                 app:layout_constraintStart_toStartOf="@+id/textInput_mobileno"
                 app:layout_constraintTop_toBottomOf="@id/textInput_mobileno">
@@ -196,6 +201,7 @@
                 android:textColorHint="#FFFFFF"
                 app:boxStrokeColor="@color/white"
                 app:hintTextColor="@color/white"
+                app:errorEnabled="true"
                 app:layout_constraintEnd_toEndOf="@+id/textInput_date"
                 app:layout_constraintStart_toStartOf="@+id/textInput_date"
                 app:layout_constraintTop_toBottomOf="@id/textInput_date">
@@ -222,6 +228,7 @@
                 android:textColorHint="#FFFFFF"
                 app:boxStrokeColor="@color/white"
                 app:hintTextColor="@color/white"
+                app:errorEnabled="true"
                 app:layout_constraintEnd_toEndOf="@+id/textInput_language"
                 app:layout_constraintStart_toStartOf="@+id/textInput_language"
                 app:layout_constraintTop_toBottomOf="@id/textInput_language"
@@ -254,6 +261,7 @@
                 android:textColorHint="#FFFFFF"
                 app:boxStrokeColor="@color/white"
                 app:hintTextColor="@color/white"
+                app:errorEnabled="true"
                 app:layout_constraintEnd_toEndOf="@+id/textInput_password"
                 app:layout_constraintStart_toStartOf="@+id/textInput_password"
                 app:layout_constraintTop_toBottomOf="@id/textInput_password"
